@@ -1,4 +1,11 @@
 
+# File: DOCX to PDF Converter.ps1
+# Author: Clint Kline
+# Last Modified: 9/16/2022
+# Purpose: convert docx files to pdf files. the idea for this file is to copy it to your desktop and click it(or open with powershell initially). 
+#     from there a file dialog opens up to choose a docx file to convert. The file is converted and the new pdf verion is saved next to the original docx file. 
+
+
 function docxtopdf() {
     #Browsing file
 
